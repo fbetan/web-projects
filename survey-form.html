@@ -1,0 +1,45 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="survey-form.css">
+  <title>Survey Form</title>
+  <meta charset="UTF-8">
+  <body>
+    <h1 id="title">Supplicant Form</h1>
+      <p id="description">Form for you to fill out because I said so.</p>
+    <form id="survey-form" method ="post">
+     <fieldset>
+          <label id="name-label">Name: <input id="name" type="text" placeholder="Someone Doe" required></label>
+          <label id="email-label">Email: <input type="email" placeholder="youremail@somewhere.com" id="email" required></label>
+          <label id="number-label">What are your salary expectations? <input  id="number" type="number" placeholder="Enter whole number" min="-1000000" max="10" required></label>
+          <label id="ssn-label">Social Security Number: <input type="ssn" placeholder="xxx-xx-xxxx"> </label></fieldset>
+    <fieldset>
+        <p>Choose one:</p>
+        <label>I'm <strong>EXCITED</strong> to sign my life over to Company.Inc <input value="1" class="inline" type="radio" name="loyalty" required></label>
+        <label>I need the money or my family and I will die <input value="2" class="inline" type="radio" name="loyalty"></label>
+        <label>I'm applying to literally everything because I'm a bot <input value="3" class="inline" type="radio" name="loyalty"></label>
+        </fieldset>
+    <fieldset>
+      <label>Which of the following best suits you?</label>
+        <select id="dropdown">
+          <option value="1">Corporate Simp</option>
+          <option value="2">Mindless Drone</option>
+          <option value="3">Entitled Arschlocke</option>
+          <option value="4">ThOuGhT lEaDeR</option>
+          <option value="5">"Individual"</option>
+          </select>
+      <label>Explain why you're a great fit for this position: <textarea placeholder="lmao"></textarea></label>
+      <label>If you were a dog, what kind of dog would you be? And why?<textarea placeholder="Golden Retriever"></textarea></label>
+      <label>I will sacrifice my first-born child for Company.Inc  <input value ="1" type="checkbox" class="inline" required></label>
+      <label>I sign my soul away willingly  <input value="2" type="checkbox" class="inline" required></label>
+    </fieldset>
+      <input id="submit" type="submit" value="Submit">
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
